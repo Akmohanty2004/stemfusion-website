@@ -1,0 +1,6 @@
+export const STUDENT_DATA = [
+  { img: "https://assets.unlayer.com/projects/0/1781430278429-3ynIFZ9hV183_MzAZhW5Aa2dArQkLdQLXiTD1WRDPVmvSNWPaZOvz4DXMuyq63-CkpmUU5Pb86lBKN7J_fugRP3M1o8qXYIrjexWInAGPNSfulZ8WLtC1LsYY8QIaBNi5JHlqKlhRFu_ehCpRu0mHwvVuHt_bmIA2MddlPHPt9k.jpeg", title: "Young Innovator", desc: "Building first robot with STEM kit", activity: "Robotics Workshop", color: "#3b82f6" },
+  { img: "https://assets.unlayer.com/projects/0/1781430422149-uE1XlOrp7V0E3ehGwZ4wLhN875RWZpyRpiZJ0iocsD7hxoCcPEOWjZXDQNUB_nPcnztVjKEuyzfh277nYfEzSwZVqRi7ljODAJhfiO2yQHx9odJxUGDZZASIK5w1lgHLwIMD2S0Mwwsf-Qcoc5dVARUCbGPGHKjvmI5QTh-68IxO24-cwBn_-z_f60zNfbXO.jpeg", title: "STEM Champion", desc: "Programming IoT devices", activity: "IoT Training", color: "#8b5cf6" },
+  { img: "https://assets.unlayer.com/projects/0/1781429825715-WhatsApp%20Image%202026-06-14%20at%201.34.30%20PM.jpeg", title: "Future Engineer", desc: "Assembling robotic arm", activity: "Robotics Lab", color: "#10b981" },
+  { img: "https://assets.unlayer.com/projects/0/1781429919771-WhatsApp%20Image%202026-06-14%20at%201.34.29%20PM.jpeg", title: "Tech Enthusiast", desc: "Working on smart device", activity: "IoT Projects", color: "#f59e0b" }
+];
