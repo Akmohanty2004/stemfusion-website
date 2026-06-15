@@ -32,7 +32,7 @@ export default function Nav() {
       transition: "all 0.4s ease",
     }}>
       <div onClick={() => go("hero")} style={{ display: "flex", alignItems: "center", gap: 10, cursor: "pointer" }}>
-        <img src="src/assets/logo.jpeg" alt="Logo" style={{ width: 50, height: 50, borderRadius: 12, objectFit: "cover" }} />
+        <img src="public\logo.jpeg" alt="Logo" style={{ width: 50, height: 50, borderRadius: 12, objectFit: "cover" }} />
         <span style={{ fontWeight: 800, fontSize: "clamp(18px, 5vw, 22px)", background: "linear-gradient(135deg, #1e293b, #3b82f6)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>
           STEM<span style={{ color: "#3b82f6" }}>Fusion</span>
         </span>
@@ -46,13 +46,13 @@ export default function Nav() {
         <GlowButton scroll={scroll} label="Contact" onClick={() => go("contact")} />
         <ShopDropdown />
         <div style={{ display: "flex", gap: 10 }}>
-          <a href="https://www.instagram.com/stemfussion?utm_source=qr&igsh=MTVvYjF0aWswaG1kMw%3D%3D" target="_blank" rel="noreferrer"><img src="src/assets/instagram.jpeg" alt="IG" style={{ width: 28, height: 28, borderRadius: "50%", transition: "all 0.3s" }}
+          <a href="https://www.instagram.com/stemfussion?utm_source=qr&igsh=MTVvYjF0aWswaG1kMw%3D%3D" target="_blank" rel="noreferrer"><img src="public\instagram.jpeg" alt="IG" style={{ width: 28, height: 28, borderRadius: "50%", transition: "all 0.3s" }}
             onMouseEnter={e => e.currentTarget.style.transform = "scale(1.1)"}
             onMouseLeave={e => e.currentTarget.style.transform = "scale(1)"} /></a>
-          <a href="https://www.facebook.com/share/1DNHyqciVj/" target="_blank" rel="noreferrer"><img src="src/assets/facebook.jpeg" alt="FB" style={{ width: 28, height: 28, borderRadius: "50%", transition: "all 0.3s" }}
+          <a href="https://www.facebook.com/share/1DNHyqciVj/" target="_blank" rel="noreferrer"><img src="public\facebook.jpeg" alt="FB" style={{ width: 28, height: 28, borderRadius: "50%", transition: "all 0.3s" }}
             onMouseEnter={e => e.currentTarget.style.transform = "scale(1.1)"}
             onMouseLeave={e => e.currentTarget.style.transform = "scale(1)"} /></a>
-          <a href="https://youtube.com/@stemfusion" target="_blank" rel="noreferrer"><img src="src/assets/youtube.png" alt="YT" style={{ width: 28, height: 28, borderRadius: "50%", transition: "all 0.3s" }}
+          <a href="https://youtube.com/@stemfusion" target="_blank" rel="noreferrer"><img src="public\youtube.png" alt="YT" style={{ width: 28, height: 28, borderRadius: "50%", transition: "all 0.3s" }}
             onMouseEnter={e => e.currentTarget.style.transform = "scale(1.1)"}
             onMouseLeave={e => e.currentTarget.style.transform = "scale(1)"} /></a>
         </div>

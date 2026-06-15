@@ -16,17 +16,17 @@ export default function Footer() {
         
         <div style={{ display: "flex", gap: 25, justifyContent: "center", marginBottom: 35 }}>
           <a href="https://www.instagram.com/stemfussion?utm_source=qr&igsh=MTVvYjF0aWswaG1kMw%3D%3D" target="_blank" rel="noreferrer">
-            <img src="src/assets/instagram.jpeg" alt="IG" style={{ width: 36, height: 36, borderRadius: "50%", transition: "transform 0.3s", cursor: "pointer" }}
+            <img src="public\instagram.jpeg" alt="IG" style={{ width: 36, height: 36, borderRadius: "50%", transition: "transform 0.3s", cursor: "pointer" }}
               onMouseEnter={e => e.currentTarget.style.transform = "scale(1.15)"}
               onMouseLeave={e => e.currentTarget.style.transform = "scale(1)"} />
           </a>
           <a href="https://www.facebook.com/share/1DNHyqciVj/" target="_blank" rel="noreferrer">
-            <img src="src/assets/facebook.jpeg" alt="FB" style={{ width: 36, height: 36, borderRadius: "50%", transition: "transform 0.3s", cursor: "pointer" }}
+            <img src="public\facebook.jpeg" alt="FB" style={{ width: 36, height: 36, borderRadius: "50%", transition: "transform 0.3s", cursor: "pointer" }}
               onMouseEnter={e => e.currentTarget.style.transform = "scale(1.15)"}
               onMouseLeave={e => e.currentTarget.style.transform = "scale(1)"} />
           </a>
           <a href="https://youtube.com/@stemfusion" target="_blank" rel="noreferrer">
-            <img src="src/assets/youtube.png" alt="YT" style={{ width: 36, height: 36, borderRadius: "50%", transition: "transform 0.3s", cursor: "pointer" }}
+            <img src="public\youtube.png" alt="YT" style={{ width: 36, height: 36, borderRadius: "50%", transition: "transform 0.3s", cursor: "pointer" }}
               onMouseEnter={e => e.currentTarget.style.transform = "scale(1.15)"}
               onMouseLeave={e => e.currentTarget.style.transform = "scale(1)"} />
           </a>

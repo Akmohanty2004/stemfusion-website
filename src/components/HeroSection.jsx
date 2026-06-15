@@ -82,7 +82,7 @@ export default function HeroSection() {
               filter: "blur(15px)", animation: "pulseGlow 2s ease-in-out infinite", zIndex: 0
             }} />
             <img 
-              src="src/assets/iot.jpeg"
+              src="public\iot.jpeg"
               alt="STEMFusion Founder"
               style={{
                 width: "clamp(200px, 32vw, 280px)",
