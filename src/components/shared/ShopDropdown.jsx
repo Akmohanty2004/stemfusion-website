@@ -31,10 +31,10 @@ export default function ShopDropdown() {
           boxShadow: "0 10px 40px rgba(0,0,0,0.15)", border: "1px solid #e2e8f0", zIndex: 100
         }}>
           <a href="https://www.instagram.com/stemfussion?utm_source=qr&igsh=MTVvYjF0aWswaG1kMw%3D%3D" target="_blank" rel="noreferrer" style={{ display: "flex", alignItems: "center", gap: 12, padding: "10px 20px", textDecoration: "none", color: "#333" }}>
-            <img src="public\instagram.jpeg" alt="IG" style={{ width: 24, height: 24, borderRadius: "50%" }} /> Shop on Instagram
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7g6s52v9CUHQrqC2jiAmW_F9qw2FQGqjbEacyNSkpPQ&s=10" alt="IG" style={{ width: 24, height: 24, borderRadius: "50%" }} /> Shop on Instagram
           </a>
           <a href="https://www.facebook.com/share/1DNHyqciVj/" target="_blank" rel="noreferrer" style={{ display: "flex", alignItems: "center", gap: 12, padding: "10px 20px", textDecoration: "none", color: "#333" }}>
-            <img src="public\facebook.jpeg" alt="FB" style={{ width: 24, height: 24, borderRadius: "50%" }} /> Shop on Facebook
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHdxqvC6ycgnQzWZu6i8GgonJZY_5ptmntd3f2txAYuw&s=10" alt="FB" style={{ width: 24, height: 24, borderRadius: "50%" }} /> Shop on Facebook
           </a>
         </div>
       )}

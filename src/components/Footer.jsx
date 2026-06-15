@@ -16,17 +16,17 @@ export default function Footer() {
         
         <div style={{ display: "flex", gap: 25, justifyContent: "center", marginBottom: 35 }}>
           <a href="https://www.instagram.com/stemfussion?utm_source=qr&igsh=MTVvYjF0aWswaG1kMw%3D%3D" target="_blank" rel="noreferrer">
-            <img src="./public\instagram.jpeg" alt="IG" style={{ width: 36, height: 36, borderRadius: "50%", transition: "transform 0.3s", cursor: "pointer" }}
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7g6s52v9CUHQrqC2jiAmW_F9qw2FQGqjbEacyNSkpPQ&s=10" alt="IG" style={{ width: 36, height: 36, borderRadius: "50%", transition: "transform 0.3s", cursor: "pointer" }}
               onMouseEnter={e => e.currentTarget.style.transform = "scale(1.15)"}
               onMouseLeave={e => e.currentTarget.style.transform = "scale(1)"} />
           </a>
           <a href="https://www.facebook.com/share/1DNHyqciVj/" target="_blank" rel="noreferrer">
-            <img src="./public\facebook.jpeg" alt="FB" style={{ width: 36, height: 36, borderRadius: "50%", transition: "transform 0.3s", cursor: "pointer" }}
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHdxqvC6ycgnQzWZu6i8GgonJZY_5ptmntd3f2txAYuw&s=10" alt="FB" style={{ width: 36, height: 36, borderRadius: "50%", transition: "transform 0.3s", cursor: "pointer" }}
               onMouseEnter={e => e.currentTarget.style.transform = "scale(1.15)"}
               onMouseLeave={e => e.currentTarget.style.transform = "scale(1)"} />
           </a>
           <a href="https://youtube.com/@stemfusion" target="_blank" rel="noreferrer">
-            <img src="./public\youtube.png" alt="YT" style={{ width: 36, height: 36, borderRadius: "50%", transition: "transform 0.3s", cursor: "pointer" }}
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_NG5j-5E7wBm336vUN545eIHAJ7JOiAmubajzRSQSzw&s" alt="YT" style={{ width: 36, height: 36, borderRadius: "50%", transition: "transform 0.3s", cursor: "pointer" }}
               onMouseEnter={e => e.currentTarget.style.transform = "scale(1.15)"}
               onMouseLeave={e => e.currentTarget.style.transform = "scale(1)"} />
           </a>
