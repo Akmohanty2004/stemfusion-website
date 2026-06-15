@@ -32,7 +32,7 @@ export default function Nav() {
       transition: "all 0.4s ease",
     }}>
       <div onClick={() => go("hero")} style={{ display: "flex", alignItems: "center", gap: 10, cursor: "pointer" }}>
-        <img src="src/assets/logo.jpeg" alt="Logo" style={{ width: 50, height: 50, borderRadius: 12, objectFit: "cover" }} />
+        <img src="https://assets.unlayer.com/projects/0/1781430833093-WhatsApp%20Image%202026-06-14%20at%202.39.27%20PM.jpeg" alt="Logo" style={{ width: 50, height: 50, borderRadius: 12, objectFit: "cover" }} />
         <span style={{ fontWeight: 800, fontSize: "clamp(18px, 5vw, 22px)", background: "linear-gradient(135deg, #1e293b, #3b82f6)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>
           STEM<span style={{ color: "#3b82f6" }}>Fusion</span>
         </span>
