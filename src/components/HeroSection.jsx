@@ -1,11 +1,13 @@
 import AutoWriteText from './shared/AutoWriteText';
+import frontbackground from "../assets/frontbackground.png"
+
 
 export default function HeroSection() {
   return (
     <section id="hero" style={{
       minHeight: "100vh", display: "flex", alignItems: "center",
       padding: "120px 6% 80px", position: "relative",
-      backgroundImage: "url('https://assets.unlayer.com/projects/0/1781438857000-4ec1541b-5b67-47da-9c27-251d3b19ed71.png')",
+      backgroundImage: `url(${frontbackground})`,
       backgroundSize: "cover", backgroundPosition: "center", backgroundRepeat: "no-repeat"
     }}>
       <div className="hero-split" style={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: 50, width: "100%", flexWrap: "wrap" }}>
@@ -82,7 +84,7 @@ export default function HeroSection() {
               filter: "blur(15px)", animation: "pulseGlow 2s ease-in-out infinite", zIndex: 0
             }} />
             <img 
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNWo2IYShv6RpDBleILU5ILyqETNVdT53XP7plo94DhQ&s=10"
+              src="src\assets\iot.jpeg"
               alt="STEMFusion Founder"
               style={{
                 width: "clamp(200px, 32vw, 280px)",
